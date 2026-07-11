@@ -1,0 +1,16 @@
+.\output\tasks.o: ..\Middle\FreeRTOS\source\tasks.c
+.\output\tasks.o: D:\zenghngming\Keil\STM32\PACK\ARM\ARMCC\Bin\..\include\stdlib.h
+.\output\tasks.o: D:\zenghngming\Keil\STM32\PACK\ARM\ARMCC\Bin\..\include\string.h
+.\output\tasks.o: ..\Middle\FreeRTOS\include\FreeRTOS.h
+.\output\tasks.o: D:\zenghngming\Keil\STM32\PACK\ARM\ARMCC\Bin\..\include\stddef.h
+.\output\tasks.o: D:\zenghngming\Keil\STM32\PACK\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\tasks.o: ../Core/Inc/FreeRTOSConfig.h
+.\output\tasks.o: ..\Middle\FreeRTOS\include\projdefs.h
+.\output\tasks.o: ..\Middle\FreeRTOS\include\portable.h
+.\output\tasks.o: ..\Middle\FreeRTOS\include\deprecated_definitions.h
+.\output\tasks.o: ..\Middle\FreeRTOS\portable\RVDS\ARM_CM4F\portmacro.h
+.\output\tasks.o: ..\Middle\FreeRTOS\include\mpu_wrappers.h
+.\output\tasks.o: ..\Middle\FreeRTOS\include\task.h
+.\output\tasks.o: ..\Middle\FreeRTOS\include\list.h
+.\output\tasks.o: ..\Middle\FreeRTOS\include\timers.h
+.\output\tasks.o: ..\Middle\FreeRTOS\include\stack_macros.h

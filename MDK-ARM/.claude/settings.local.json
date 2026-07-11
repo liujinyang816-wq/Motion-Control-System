@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Read(//c/Users/17098/Desktop/例程/四轴驱动3.0/MC_Touch_4Axis/Ethercat Master Control_DC -MOTRO-SV660N-STM32H7-20250702/**)",
+      "Read(//c/Users/17098/Desktop/四轴机床/四轴驱动3.1/four/User/Inc/**)",
+      "Read(//c/Users/17098/Desktop/四轴机床/四轴驱动3.1/four/Core/Inc/**)"
+    ]
+  }
+}
