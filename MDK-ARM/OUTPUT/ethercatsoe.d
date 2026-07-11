@@ -1,0 +1,10 @@
+.\output\ethercatsoe.o: ..\ETHERCAT\ethercatsoe.c
+.\output\ethercatsoe.o: D:\zenghngming\Keil\STM32\PACK\ARM\ARMCC\Bin\..\include\stdio.h
+.\output\ethercatsoe.o: D:\zenghngming\Keil\STM32\PACK\ARM\ARMCC\Bin\..\include\string.h
+.\output\ethercatsoe.o: ..\ETHERCAT\ethercattype.h
+.\output\ethercatsoe.o: ..\ETHERCAT\osal.h
+.\output\ethercatsoe.o: D:\zenghngming\Keil\STM32\PACK\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\ethercatsoe.o: ..\ETHERCAT\ethercatbase.h
+.\output\ethercatsoe.o: ..\ETHERCAT\nicdrv.h
+.\output\ethercatsoe.o: ..\ETHERCAT\ethercatmain.h
+.\output\ethercatsoe.o: ..\ETHERCAT\ethercatsoe.h

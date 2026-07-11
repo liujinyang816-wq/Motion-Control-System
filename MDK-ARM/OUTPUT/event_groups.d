@@ -1,0 +1,15 @@
+.\output\event_groups.o: ..\Middle\FreeRTOS\source\event_groups.c
+.\output\event_groups.o: D:\zenghngming\Keil\STM32\PACK\ARM\ARMCC\Bin\..\include\stdlib.h
+.\output\event_groups.o: ..\Middle\FreeRTOS\include\FreeRTOS.h
+.\output\event_groups.o: D:\zenghngming\Keil\STM32\PACK\ARM\ARMCC\Bin\..\include\stddef.h
+.\output\event_groups.o: D:\zenghngming\Keil\STM32\PACK\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\event_groups.o: ../Core/Inc/FreeRTOSConfig.h
+.\output\event_groups.o: ..\Middle\FreeRTOS\include\projdefs.h
+.\output\event_groups.o: ..\Middle\FreeRTOS\include\portable.h
+.\output\event_groups.o: ..\Middle\FreeRTOS\include\deprecated_definitions.h
+.\output\event_groups.o: ..\Middle\FreeRTOS\portable\RVDS\ARM_CM4F\portmacro.h
+.\output\event_groups.o: ..\Middle\FreeRTOS\include\mpu_wrappers.h
+.\output\event_groups.o: ..\Middle\FreeRTOS\include\task.h
+.\output\event_groups.o: ..\Middle\FreeRTOS\include\list.h
+.\output\event_groups.o: ..\Middle\FreeRTOS\include\timers.h
+.\output\event_groups.o: ..\Middle\FreeRTOS\include\event_groups.h
