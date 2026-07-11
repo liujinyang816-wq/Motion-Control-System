@@ -199,7 +199,7 @@ int main(void)
 
     /* 调试串口 */
     DEBUG_USART_Config();
-    print("nih");
+
 
     /* Flash 参数加载 (Flash 禁用时仅用 RAM 默认值) */
     Param_LoadAll();
