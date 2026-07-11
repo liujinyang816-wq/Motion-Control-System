@@ -1,0 +1,14 @@
+.\output\stream_buffer.o: ..\Middle\FreeRTOS\source\stream_buffer.c
+.\output\stream_buffer.o: D:\zenghngming\Keil\STM32\PACK\ARM\ARMCC\Bin\..\include\string.h
+.\output\stream_buffer.o: ..\Middle\FreeRTOS\include\FreeRTOS.h
+.\output\stream_buffer.o: D:\zenghngming\Keil\STM32\PACK\ARM\ARMCC\Bin\..\include\stddef.h
+.\output\stream_buffer.o: D:\zenghngming\Keil\STM32\PACK\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\stream_buffer.o: ../Core/Inc/FreeRTOSConfig.h
+.\output\stream_buffer.o: ..\Middle\FreeRTOS\include\projdefs.h
+.\output\stream_buffer.o: ..\Middle\FreeRTOS\include\portable.h
+.\output\stream_buffer.o: ..\Middle\FreeRTOS\include\deprecated_definitions.h
+.\output\stream_buffer.o: ..\Middle\FreeRTOS\portable\RVDS\ARM_CM4F\portmacro.h
+.\output\stream_buffer.o: ..\Middle\FreeRTOS\include\mpu_wrappers.h
+.\output\stream_buffer.o: ..\Middle\FreeRTOS\include\task.h
+.\output\stream_buffer.o: ..\Middle\FreeRTOS\include\list.h
+.\output\stream_buffer.o: ..\Middle\FreeRTOS\include\stream_buffer.h

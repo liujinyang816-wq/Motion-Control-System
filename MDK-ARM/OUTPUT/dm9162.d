@@ -1,0 +1,2 @@
+.\output\dm9162.o: ..\HARDWARE\ETHERNET\DM9162.c
+.\output\dm9162.o: ..\HARDWARE\ETHERNET\DM9162.h

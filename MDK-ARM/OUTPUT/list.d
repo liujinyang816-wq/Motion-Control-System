@@ -1,0 +1,12 @@
+.\output\list.o: ..\Middle\FreeRTOS\source\list.c
+.\output\list.o: D:\zenghngming\Keil\STM32\PACK\ARM\ARMCC\Bin\..\include\stdlib.h
+.\output\list.o: ..\Middle\FreeRTOS\include\FreeRTOS.h
+.\output\list.o: D:\zenghngming\Keil\STM32\PACK\ARM\ARMCC\Bin\..\include\stddef.h
+.\output\list.o: D:\zenghngming\Keil\STM32\PACK\ARM\ARMCC\Bin\..\include\stdint.h
+.\output\list.o: ../Core/Inc/FreeRTOSConfig.h
+.\output\list.o: ..\Middle\FreeRTOS\include\projdefs.h
+.\output\list.o: ..\Middle\FreeRTOS\include\portable.h
+.\output\list.o: ..\Middle\FreeRTOS\include\deprecated_definitions.h
+.\output\list.o: ..\Middle\FreeRTOS\portable\RVDS\ARM_CM4F\portmacro.h
+.\output\list.o: ..\Middle\FreeRTOS\include\mpu_wrappers.h
+.\output\list.o: ..\Middle\FreeRTOS\include\list.h
