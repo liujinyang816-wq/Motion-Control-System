@@ -484,6 +484,20 @@ void RefreshAxisGearRatio(void)
  * ⚠️ 调用前从站必须在 PREOP/SAFEOP/OP 状态 (SDO 可用)
  * ⚠️ 建议在伺服未使能时调用 (参数写入受限)
  */
+/* ================================================================
+   Servo_WriteGearRatio() — 通过 SDO 将电子齿轮比写入伺服驱动器
+   ================================================================
+ * 写入 CiA 402 对象字典:
+ *   0x6091:01 → servo_gear_num (电机侧圈数)
+ *   0x6091:02 → servo_gear_den (输出轴侧圈数)
+ *
+ * @param slave : EtherCAT 从站索引 (1-based)
+ * @param ax    : 轴索引
+ * @retval 1=成功 0=失败
+ *
+ * ⚠️ 调用前从站必须在 PREOP/SAFEOP/OP 状态 (SDO 可用)
+ * ⚠️ 建议在伺服未使能时调用 (参数写入受限)
+ */
 int Servo_WriteGearRatio(uint16 slave, int ax)
 {
     int retval = 0;
@@ -503,20 +517,20 @@ int Servo_WriteGearRatio(uint16 slave, int ax)
            "XYZRUVWS"[ax], (long)num, (long)den);
     #endif
 
-    /* 写 0x6091:01 — Gear Ratio numerator */
+    /* 写 0x6091:01 — Gear Ratio numerator
+     * ec_SDOwrite 返回: >0=成功(wkc), 0=SDO Abort, <0=超时 */
     int ret1 = ec_SDOwrite(slave, 0x6091, 0x01, FALSE,
                            sizeof(num), &num, EC_TIMEOUTRXM);
-    if (ret1 != 0) {
+    if (ret1 <= 0) {
         retval++;
     }
 
     /* 写 0x6091:02 — Gear Ratio denominator */
     int ret2 = ec_SDOwrite(slave, 0x6091, 0x02, FALSE,
                            sizeof(den), &den, EC_TIMEOUTRXM);
-    if (ret2 != 0) {
+    if (ret2 <= 0) {
         retval++;
     }
-
     if (retval == 0) {
         #if printf_cmd
         printf("OK\r\n");
