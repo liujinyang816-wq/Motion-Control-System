@@ -213,6 +213,8 @@ int main(void)
     Position_PowerFailInit();
 #endif
 
+printf("nihao");
+
     /* 以太网控制器初始化 */
     DM9000_Init();
     vid = dm9k_ReadID();
