@@ -357,7 +357,7 @@ void Modbus_Poll(void)
  *   C. MCS mm/deg 换算 (脉冲 × 导程 → IEEE 754 Float, 联动轴 + 辅助轴)
  *   D. 系统标志汇总 (故障/就绪/抱闸/回零/报警计数)
  *   E. 参数区同步 (param_ram → mb_regs, 每 200ms)
- *   F. 画面2 调试映射 (选中轴数据拷贝)
+ *   F. 画面2 映射 (选中轴数据拷贝)
  *
  * 【调用频率】
  *   每 4 个 EtherCAT 周期 (20ms), 与 HMI 刷新率 10Hz 匹配

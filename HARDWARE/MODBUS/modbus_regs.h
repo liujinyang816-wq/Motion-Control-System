@@ -71,9 +71,9 @@
 /* ── B. 画面2 轴调试映射区 — PDU 29~31 ────────────────────────────
    STM32 根据 AXIS_SELECT 自动拷贝选中轴的数据到此区 */
 
-#define MB_REG_DISP_POS_LO      29   /* 调试画面: 选中轴位置 低16位 */
-#define MB_REG_DISP_POS_HI      30   /* 调试画面: 选中轴位置 高16位 */
-#define MB_REG_DISP_RPM         31   /* 调试画面: 选中轴转速 (RPM) */
+#define MB_REG_DISP_POS_LO      29   /*  选中轴位置 低16位 */
+#define MB_REG_DISP_POS_HI      30   /*  选中轴位置 高16位 */
+#define MB_REG_DISP_RPM         31   /*  选中轴转速 (RPM) */
 
 
 /* ── C. 轴状态解析 + 系统标志 — PDU 32~37 ─────────────────────────
